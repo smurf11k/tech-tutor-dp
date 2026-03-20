@@ -108,7 +108,105 @@ RESTful API for all core features.
 
 ## Roadmap
 
+### Infrastructure & Auth
+
+- [ ] Project setup (Laravel + React + PostgreSQL + Docker)
+- [ ] JWT / session-based authentication
+- [ ] Email + OAuth login (Google, GitHub)
+- [ ] Email verification
+- [ ] Password reset flow
+- [ ] Optional 2FA
+- [ ] Rate limiting & CAPTCHA
+- [ ] XSS / SQL injection protection
+- [ ] Role-based access control (student, instructor, admin)
+
+### Core Course Structure
+
+- [ ] Course CRUD (instructor)
+- [ ] Module CRUD (instructor)
+- [ ] Lesson CRUD — text, video, file uploads (instructor)
+- [ ] Course publish / draft logic
+- [ ] Course thumbnail & metadata
+- [ ] Modular structure (Course → Modules → Lessons)
+
+### Student Experience
+
+- [ ] Course catalog with search & filtering (MeiliSearch)
+- [ ] Course detail / preview page
+- [ ] Enrollment flow
+- [ ] Lesson viewer (video player, text renderer, file downloads)
+- [ ] Progress tracking (per lesson, per module, per course)
+- [ ] Course completion certificates
+
+### Quizzes
+
+- [ ] Quiz CRUD (instructor)
+- [ ] Question types (single choice, multiple choice)
+- [ ] Quiz attempts & scoring
+- [ ] Pass threshold logic
+- [ ] Attempt history for students
+- [ ] Quiz analytics for instructors
+
+### Payments
+
+- [ ] Payment integration (Stripe / LiqPay)
+- [ ] Course pricing (free / paid / subscription)
+- [ ] Purchase flow & receipts
+- [ ] Refund handling
+- [ ] Instructor payouts
+- [ ] Admin payment monitoring
+
+### Reviews & Community
+
+- [ ] Course reviews & star ratings
+- [ ] Lesson comments
+- [ ] Comment moderation (admin)
+- [ ] Review moderation (admin)
+
+### Notifications
+
+- [ ] Email notifications (enrollment, quiz results, new content)
+- [ ] In-app notifications
+- [ ] Push notifications
+
+### Instructor Dashboard
+
+- [ ] Course management overview
+- [ ] Student progress per course
+- [ ] Revenue & enrollment analytics
+- [ ] Content upload & management
+
+### Admin Panel
+
+- [ ] User management (view, ban, role change)
+- [ ] Content moderation queue
+- [ ] Platform activity monitor
+- [ ] Payment & revenue overview
+
+### Analytics
+
+- [ ] Student engagement metrics
+- [ ] Course completion rates
+- [ ] Revenue reports
+- [ ] Search analytics (popular queries, zero results)
+
+### SSR & Performance
+
+- [ ] SSR setup for public pages (catalog, course detail)
+- [ ] SEO meta tags & Open Graph
+- [ ] Image optimization & CDN
+- [ ] Lazy loading & pagination
+
+### Polish & Extras
+
+- [ ] Responsive UI across all pages
+- [ ] Dark / light mode
 - [ ] Multi-language support
+- [ ] Accessibility (WCAG compliance)
+- [ ] API documentation
+- [ ] Tests (unit + feature)
+- [ ] Seed / mock data
+- [ ] CI/CD pipeline
 
 ## Additional
 
